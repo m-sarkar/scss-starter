@@ -1,0 +1,59 @@
+
+
+@font-face {
+    font-family: 'audreybold';
+    src: url('../fonts/audrey-bold-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreybold_italic';
+    src: url('../fonts/audrey-boldoblique-webfont.woff2') format('woff2'),
+         url('fonts/audrey-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreymedium';
+    src: url('../fonts/audrey-medium-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreymedium_oblique';
+    src: url('../fonts/audrey-mediumoblique-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-mediumoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreyregular';
+    src: url('../fonts/audrey-normal-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'audreyitalic';
+    src: url('../fonts/audrey-normaloblique-webfont.woff2') format('woff2'),
+         url('../fonts/audrey-normaloblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+$font-bold: 'audreybold', sans-serif;
+$font-bold-italic: 'audreybold_italic', sans-serif;
+$font-medium: 'audreymedium', sans-serif;
+$font-medium-oblique: 'audreymedium_oblique', sans-serif;
+$font-italic: 'audreyitalic', sans-serif;
+$font-regular: 'audreyregular', sans-serif;
+$font-awesome: 'FontAwesome';
+body {
+    font-family: $font-regular;
+}

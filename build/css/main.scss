@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Audrey
+Version:    1.0
+Last change:    24.09.2018
+Primary use:    Ecommerce html template
+-------------------------------------------------------------------*/
+@import "_buttons";
+@import "_common";
+@import "_form";
+@import "_mixins";
+@import "_typography";
+@import "_variables";
+@import "_utilities";
+@import "templates/nav";
+/*======== Section intro ==========*/
+
+/*======== NAV STYLE ==========*/
+
+// .navbar-default {
+//     background-color: transparent;
+//     border-color: transparent;
+//     background: url(../img/nav1-bg.jpg) no-repeat;
+//     background-size:cover;
+    
+//     .navbar-nav {
+//         li {
+//             a {
+//                 color: rgb(239, 241, 242);
+//                 text-transform: uppercase;
+//                 font-weight: 700;
+//             }
+//         }
+//     }
+
+// }
+
+
+
+@import "_responsive";

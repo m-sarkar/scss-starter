@@ -1,0 +1,46 @@
+html {
+    overflow-y: scroll;
+    -ms-overflow-style: scrollbar;
+}
+
+html,
+body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+
+iframe {
+    border: none;
+    width: 100%;
+}
+
+a,
+b,
+div,
+ul,
+li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    -moz-outline-: none;
+}
+
+a:visited,
+a:focus,
+a:active {
+    -moz-outline: none;
+    outline: none;
+}
+
+img:not([draggable]),
+embed,
+object,
+video {
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}

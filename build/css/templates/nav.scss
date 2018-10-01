@@ -1,0 +1,28 @@
+// Nav styles
+@media  (min-width:768px){
+    .navbar{ 
+        // font-family: $font-regular;
+        border-color: transparent;
+        ul {
+            li {
+                display: block;
+                float: left;
+                padding:0;
+                a{
+                    font-size:14px;
+                    color: $gray; 
+                    font-weight: 400;
+                    padding: 17px 13px 16px;
+                    
+                    &:hover,&:focus,&:active{
+                        color: $primary;
+                        background: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import "mithun.scss";
+@import "part.scss";
